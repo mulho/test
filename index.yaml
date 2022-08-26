@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  simple-helm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-08-26T19:31:49.794704151Z"
+    description: A Helm chart for Kubernetes
+    digest: 31dffb5c4078a7d3d5d918be1191f9b1a1bb3dd46b1c6275f464c5cd1848a9fe
+    name: simple-helm
+    type: application
+    urls:
+    - https://github.com/mulho/test/releases/download/simple-helm-0.1.1/simple-helm-0.1.1.tgz
+    version: 0.1.1
+generated: "2022-08-26T19:31:49.794715751Z"
