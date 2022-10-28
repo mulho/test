@@ -10,4 +10,6 @@ runs:
     - name: Convert
       shell: bash
       run: |
-        sed -E 's/-([a-z])/\U\1/g' <<< ${{ inputs.kebab }}
+        APPLICATION_CAMEL_CASE="$(sed -E 's/-([a-z])/\U\1/g' <<< ${{ inputs.kebab }})"
+        echo "===="
+        echo "app: $APPLICATION_CAMEL_CASE"
