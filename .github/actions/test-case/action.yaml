@@ -1,0 +1,13 @@
+name: Update Deployment Repo
+description: "Updates application in the deployment"
+inputs:
+  kebab:
+    required: true
+    description: bebab-case value.
+runs:
+  using: composite
+  steps:
+    - name: Convert
+      shell: bash
+      run: |
+        sed -E 's/_([a-z])/\U\1/g' <<< my_long_variable
