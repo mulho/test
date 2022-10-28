@@ -10,4 +10,4 @@ runs:
     - name: Convert
       shell: bash
       run: |
-        sed -E 's/_([a-z])/\U\1/g' <<< ${{ inputs.kebab }}
+        sed -E 's/-([a-z])/\U\1/g' <<< ${{ inputs.kebab }}
