@@ -10,4 +10,4 @@ runs:
     - name: Convert
       shell: bash
       run: |
-        sed -E 's/_([a-z])/\U\1/g' <<< my_long_variable
+        sed -E 's/_([a-z])/\U\1/g' <<< $kebab
