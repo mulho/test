@@ -5,7 +5,7 @@ inputs:
     required: true
     description: bebab-case value.
   other:
-    required: true
+    required: false
     description: "whatever"
     default: "default value"
 runs:
