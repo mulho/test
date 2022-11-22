@@ -4,6 +4,10 @@ inputs:
   kebab:
     required: true
     description: bebab-case value.
+  other:
+    required: true
+    description: "whatever"
+    default: "default value"
 runs:
   using: composite
   steps:
